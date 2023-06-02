@@ -43,14 +43,17 @@ Our metrics of success will be the R-Squared and the Root Mean Square of Errors(
 ### Univariate analysis
 
 ![Visualization](Visualizations/Visualization1.png)
-
+![Visualization1](https://github.com/RahmaMohamed786/dsc-phase-2-project-v2-3/assets/130972835/2f3477ab-2672-4816-801b-022f1b4c7c5f)
 
 ![Visualization](Visualizations/Visualization2.png)
-
+![Visualization2](https://github.com/RahmaMohamed786/dsc-phase-2-project-v2-3/assets/130972835/bd37e849-4eca-49a9-beb4-d325c11b8b0f)
 
 As we can see from the above two visualizations, the distribution of house prices is right-skewed. This means that there are a large number of houses that are relatively inexpensive, but there are also a small number of houses that are very expensive, denoting presence of outliers.
 
 ![Visualization](Visualizations/Visualization3.png)
+![Visualization3](https://github.com/RahmaMohamed786/dsc-phase-2-project-v2-3/assets/130972835/ae21d37d-f2c6-46df-a9e2-fea673dc116f)
+
+
 
 
 Based on the box plot there is presence of outliers in the house prices which we decided to keep based on the assumption that they are a true representation of the real-world dataset.
@@ -59,12 +62,12 @@ Based on the box plot there is presence of outliers in the house prices which we
 ### Bivariate Analysis
 
 ![Visualization](Visualizations/Visualization4.png)
-
+![Visualization4](https://github.com/RahmaMohamed786/dsc-phase-2-project-v2-3/assets/130972835/dc798e25-784c-4182-a0ec-556b1565d0a0)
 
 Based on the scatter plots above, we can point out that Square foot of living potentially has the highest positive correlation with price; we can therefore assume that as the square foot of living increases, so does price.
 
 ![Visualization](Visualizations/Visualization5.png)
-
+![Visualization5](https://github.com/RahmaMohamed786/dsc-phase-2-project-v2-3/assets/130972835/5fd326c7-1271-4b9e-a866-3ec95618a5a3)
 
 Based on the heatmap, we can back up our findings from the scatter plot that indeed Square foot of living has the highest positive correlation with price with a value of 0.71. In second and third places we have Square foot above (Square footage of house apart from basement) with a value of 0.61 and Square foot living15 (The square footage of interior housing living space for the nearest 15 neighbors) with a value of 0.58.
 
